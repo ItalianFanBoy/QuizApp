@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0.2);
+    max-width: 100%;
+}
+
+.quiz-header {
+    padding: 2rem;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0 ;
+
+}
